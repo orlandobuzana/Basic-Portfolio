@@ -142,7 +142,20 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+/* to be done color of active inputs needs to be the same as the btn */
+input[type=text]:focus {
+    border-color: #4aaaa5;
+    box-shadow: 0 1px 1px #4aaaa5 inset, 0 0 8px #4aaaa5;
+    outline: 0 none;
+    
+}
+textarea:focus{
+    border-color: #4aaaa5;
+    box-shadow: 0 1px 1px #4aaaa5 inset, 0 0 8px #4aaaa5;
+    outline: 0 none;
 
+}
+/***********************************************************************/
 input[type=submit] {
   background-color: #4aaaa5;
   color: white;
