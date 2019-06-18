@@ -73,7 +73,7 @@ nav a:active{
     color: #868383;
 }
 
-article{
+main{
 
     overflow: hidden;
     margin: 15px 55px 0px 55px;
@@ -87,7 +87,7 @@ h2{
     color: #4aaaa5;
     margin-left: 15px;
 }
-main{
+article{
     text-justify: auto;
     margin: 16px;
     padding:1em;
@@ -96,23 +96,23 @@ main{
     border-color: #dddddd;
     background-color: #ffffff;
 }
-main p{
+article p{
     margin-top: 16px;
     text-justify: auto;
 }
 
-main img{
+article img{
     margin: 16px;
     float: left;
 }
-main section{
+article section{
     
     text-align: center;
     margin-left: 20px;
     padding: 0.2em;   
 }
 
-main section address{
+article section address{
     position: absolute;
     
 }
